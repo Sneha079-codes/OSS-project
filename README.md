@@ -13,7 +13,7 @@ This repository contains the technical components for the **OSS Capstone Project
 ## Included Scripts
 The following scripts were developed to perform a deep-dive audit of the local environment:
 
-1. **script_1.sh`**: Identifies the host operating system, kernel version, and associated OS licensing.
+1. **`script_1.sh`**: Identifies the host operating system, kernel version, and associated OS licensing.
 2. **`Script_2.sh`**: Audits the presence of Python 3 and retrieves metadata regarding the specific build and versioning.
 3. **`Script_3.sh`**: Analyzes the physical file footprint of Python within the `/usr/lib` directory to understand system-level integration.
 4. **`Script_4.sh`**: Scans system logs (`/var/log/dpkg.log`) to track the history of Python-related installations and updates.
